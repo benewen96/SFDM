@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Intern Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Intern Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Business Area --></label>
+        <name>USSI_Business_Area__c</name>
+        <picklistValues>
+            <masterLabel>Business Unit IT (BU IT)</masterLabel>
+            <translation><!-- Business Unit IT (BU IT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Information Services (GIS)</masterLabel>
+            <translation><!-- Global Information Services (GIS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Services IT (GS IT)</masterLabel>
+            <translation><!-- Global Services IT (GS IT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Manufacturing and Quality IT (MQ IT)</masterLabel>
+            <translation><!-- Manufacturing and Quality IT (MQ IT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medicines Development Unit IT (MDU IT)</masterLabel>
+            <translation><!-- Medicines Development Unit IT (MDU IT) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Research IT</masterLabel>
+            <translation><!-- Research IT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sr. Director/Career Coach --></label>
+        <name>USSI_Coach__c</name>
+        <relationshipLabel><!-- Intern Projects (Sr. Director/Career Coach) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Current Year --></label>
+        <name>USSI_Current_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Degree --></label>
+        <name>USSI_Degree__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Overview --></label>
+        <name>USSI_Project_Overview__c</name>
+    </fields>
+    <fields>
+        <label><!-- Skillset --></label>
+        <name>USSI_Skillset__c</name>
+        <picklistValues>
+            <masterLabel>IT Business Analyst</masterLabel>
+            <translation><!-- IT Business Analyst --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Developer</masterLabel>
+            <translation><!-- IT Developer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Information Mgmt &amp; Analytics</masterLabel>
+            <translation><!-- IT Information Mgmt &amp; Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Infrastructure (Network &amp; Compute)</masterLabel>
+            <translation><!-- IT Infrastructure (Network &amp; Compute) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Technical Integrator</masterLabel>
+            <translation><!-- IT Technical Integrator --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>USSI_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>USSI_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Supervisor Name --></label>
+        <name>USSI_Supervisor_Name__c</name>
+        <relationshipLabel><!-- Intern Projects (Supervisor Name) --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Intern Project Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
