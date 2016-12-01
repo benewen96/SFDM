@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Follow</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>USSI_Degree_Program__c</fullName>
+        <externalId>false</externalId>
+        <label>Degree Program</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USSI_Email_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Address</label>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USSI_Expected_Graduation__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Graduation</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>USSI_First_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>First Name</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USSI_Full_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>USSI_First_Name__c + &apos; &apos; +  USSI_Last_Name__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full Name</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USSI_Last_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Name</label>
+        <length>100</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USSI_Phone_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Phone Number</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>USSI_Preferred_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferred Contact Method</label>
+        <picklist>
+            <picklistValues>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>SMS</fullName>
+                <default>false</default>
+            </picklistValues>
+            <picklistValues>
+                <fullName>Voice</fullName>
+                <default>false</default>
+            </picklistValues>
+            <restrictedPicklist>true</restrictedPicklist>
+            <sorted>false</sorted>
+        </picklist>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>USSI_TimeStamp__c</fullName>
+        <description>If this field is updated, send an email to the student</description>
+        <externalId>false</externalId>
+        <inlineHelpText>When is the last verification email sent</inlineHelpText>
+        <label>Last Sent</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>USSI_University__c</fullName>
+        <externalId>false</externalId>
+        <label>University</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>USSI_Verification_Code__c</fullName>
+        <externalId>false</externalId>
+        <label>Verification Code</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Student Intern</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>USSI_Full_Name__c</columns>
+        <columns>USSI_Email_Address__c</columns>
+        <columns>USSI_Verification_Code__c</columns>
+        <columns>USSI_TimeStamp__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <language>en_US</language>
+    </listViews>
+    <nameField>
+        <displayFormat>STU-{0000}</displayFormat>
+        <label>Record Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Student Interns</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>USSI_Full_Name__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>USSI_Email_Address__c</customTabListAdditionalFields>
+        <listViewButtons>USSI_SendAll</listViewButtons>
+        <lookupDialogsAdditionalFields>USSI_Full_Name__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>USSI_Email_Address__c</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>USSI_Full_Name__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>USSI_Email_Address__c</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>USSI_Full_Name__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>USSI_Email_Address__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <webLinks>
+        <fullName>USSI_SendAll</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send All</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/connection.js&quot;)} 
+var updatelist = []; //object to update
+var records = {!GETRECORDIDS($ObjectType.USSI_Student__c)}; //list of id
+var query = &quot;SELECT Id, USSI_Verification_Code__c FROM USSI_Student__c WHERE Id  In &quot; + &quot;(&apos;&quot; + records.toString().replace(/,/g, &quot;&apos;,&apos;&quot;) + &quot;&apos;)&quot;; //query
+var result = sforce.connection.query(query); //raw result
+
+var students = result.getArray(&quot;records&quot;); //list of records 
+for (var a = 0; a &lt; students.length; a++) {
+	var c = new sforce.SObject(&quot;USSI_Student__c&quot;); 
+	c.id = students[a].Id; 
+	c.USSI_Timestamp__c = new Date();
+	var oldCode = students[a].USSI_Verification_Code__c;
+	if(!oldCode) c.USSI_Verification_Code__c = Math.floor(Math.random()*89999+10000);
+	updatelist.push(c);
+}
+sforce.connection.update(updatelist);
+window.location.reload();</url>
+    </webLinks>
+    <webLinks>
+        <fullName>USSI_Verification_Code</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Verification Code</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/20.0/connection.js&quot;)} 
+var c = new sforce.SObject(&quot;USSI_Student__c&quot;); 
+c.id = &quot;{!USSI_Student__c.Id}&quot;; 
+c.USSI_Timestamp__c = new Date();
+var oldCode = &quot;{!USSI_Student__c.USSI_Verification_Code__c}&quot;;
+if(!oldCode) c.USSI_Verification_Code__c = Math.floor(Math.random()*89999+10000);
+sforce.connection.update([c]);
+window.location.reload();</url>
+    </webLinks>
+</CustomObject>
